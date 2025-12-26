@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="1" errors="0" time="1.773">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2025-12-26T18:38:39" time="1.454" tests="4">
+    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.014">
+    </testcase>
+    <testcase classname=" search is made on by clicking on search button and no results found" name=" search is made on by clicking on search button and no results found" time="1.014">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: null
+Received: &lt;ul class=&quot;mt-50 slide-up-fade-in styled&quot; data-testid=&quot;stock-data&quot; id=&quot;stockData&quot;&gt;&lt;div class=&quot;mt-50 slide-up-fade-in&quot; data-testid=&quot;no-result&quot; id=&quot;no-result&quot;&gt;No Results Found&lt;/div&gt;&lt;/ul&gt;
+
+Ignored nodes: comments, script, style
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div&gt;
+      &lt;div&gt;
+        &lt;h8k-navbar
+          header=&quot;Stock Data&quot;
+        /&gt;
+        &lt;div
+          class=&quot;layout-column align-items-center mt-50&quot;
+        &gt;
+          &lt;section
+            class=&quot;layout-row align-items-center justify-content-center&quot;
+          &gt;
+            &lt;form
+              class=&quot;mr-20&quot;
+            &gt;
+              &lt;input
+                class=&quot;large&quot;
+                data-testid=&quot;app-input&quot;
+                id=&quot;app-input&quot;
+                placeholder=&quot;5-January-2000&quot;
+                type=&quot;text&quot;
+              /&gt;
+              &lt;button
+                class=&quot;&quot;
+                data-testid=&quot;submit-button&quot;
+                id=&quot;submit-button&quot;
+                type=&quot;submit&quot;
+              &gt;
+                Search
+              &lt;/button&gt;
+            &lt;/form&gt;
+          &lt;/section&gt;
+          &lt;ul
+            class=&quot;mt-50 slide-up-fade-in styled&quot;
+            data-testid=&quot;stock-data&quot;
+            id=&quot;stockData&quot;
+          &gt;
+            &lt;div
+              class=&quot;mt-50 slide-up-fade-in&quot;
+              data-testid=&quot;no-result&quot;
+              id=&quot;no-result&quot;
+            &gt;
+              No Results Found
+            &lt;/div&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+    at /Users/matthewmarcus/dev/0e4d4fd3-4f9d-4870-a86f-9bd96657fcae-v2/src/App.test.js:35:41
+    at runWithExpensiveErrorDiagnosticsDisabled (/Users/matthewmarcus/dev/0e4d4fd3-4f9d-4870-a86f-9bd96657fcae-v2/node_modules/@testing-library/dom/dist/config.js:47:12)
+    at checkCallback (/Users/matthewmarcus/dev/0e4d4fd3-4f9d-4870-a86f-9bd96657fcae-v2/node_modules/@testing-library/dom/dist/wait-for.js:124:77)
+    at checkRealTimersCallback (/Users/matthewmarcus/dev/0e4d4fd3-4f9d-4870-a86f-9bd96657fcae-v2/node_modules/@testing-library/dom/dist/wait-for.js:118:16)
+    at Timeout.task [as _onTimeout] (/Users/matthewmarcus/dev/0e4d4fd3-4f9d-4870-a86f-9bd96657fcae-v2/node_modules/jsdom/lib/jsdom/browser/Window.js:516:19)
+    at listOnTimeout (node:internal/timers:588:17)
+    at processTimers (node:internal/timers:523:7)</failure>
+    </testcase>
+    <testcase classname=" search is made on by clicking on search button and result found - test 1" name=" search is made on by clicking on search button and result found - test 1" time="0.013">
+    </testcase>
+    <testcase classname=" search is made on by clicking on search button and result found - test 2" name=" search is made on by clicking on search button and result found - test 2" time="0.01">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,7 @@
+{
+  "node": true,
+  "browser": true,
+  "esnext": true,
+  "asi": true,
+  "esversion": 8
+}
