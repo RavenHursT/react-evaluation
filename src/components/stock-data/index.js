@@ -20,7 +20,6 @@ export default function StockData() {
     e.preventDefault()
     const input = document.getElementById('app-input').value;
     const { data } = await fetchStockData(input)
-    console.log(`data =>`, data)
     setStockData(data)
   }
 
